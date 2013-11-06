@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <Button 
+        android:id="@+id/btNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:onClick="next" />
+    
+    <Button 
+        android:id="@+id/btPrevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btNext"
+        android:text="previous"
+        android:onClick="previous" />
+    
+    <ViewFlipper
+        android:id="@+id/details"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/btNext" >
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF00"
+            android:textSize="40dip"
+            android:layout_gravity="center_horizontal"
+            android:text="first panel" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFF0000"
+            android:textSize="40dip"
+            android:layout_gravity="center_horizontal"
+            android:text="second panel" />
+        
+	</ViewFlipper>
+</RelativeLayout>

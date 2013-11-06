@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">aAnim</string>
+    <string name="title_activity">aAnim</string>
+    <string name="animation_2_text_1">We do not sow</string>
+    <string name="animation_2_text_2">Winter is comming</string>
+    <string name="animation_2_text_3">Hear me Roar</string>
+    <string name="animation_2_text_4">Fire and Blood</string>
+    <string name="animation_2_instructions">Select</string>
+</resources>

@@ -1,0 +1,40 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:layout_gravity="center"
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip" >
+	
+    <EditText 
+        android:id="@+id/etName"
+        android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center" />
+    
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:stretchColumns="*" >
+	
+		<TableRow>
+			<Button
+			    android:id="@+id/showText"
+			    android:text="show text" />
+			<Button
+			    android:id="@+id/saveText"
+			    android:text="save text" />
+		</TableRow>
+		
+		<TableRow>
+			<Button
+			    android:id="@+id/deleteFile"
+			    android:text="delete file" />
+			<Button
+			    android:id="@+id/deleteText"
+			    android:text="delete text" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

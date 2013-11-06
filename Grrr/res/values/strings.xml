@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">grrrr</string>
+    <string name="title_main">Main Activity</string>
+    <string name="main_title">Main Title</string>
+    <string name="second_title">Application Activity</string>
+    <string name="third_title">Menu Activity</string>
+    <string name="fourth_title">Form Activity</string>
+    <string name="menu">menu</string>
+    <string name="show1">show1</string>
+    <string name="show2">show2</string>
+    <string name="app">app</string>
+    <string name="exit">exit</string>
+    <string name="clear">clear</string>
+    
+   <string name="app_name_label">App name</string>
+   <string name="this_app_name">EMP</string>  
+   
+    <string name="app_version_label">version</string>
+   <string name="app_version"> v1.2</string>
+   
+   <string name="app_date_label">date</string>
+   <string name="app_date">19.12.2012</string>
+   
+   <string name="app_author_label">Author</string>
+   
+   <string name="back">back</string>
+   <string name="save">save</string>
+   
+   <string name="alert_dialog">
+   \n
+   Ime aplikacije: 	EMP\n
+   Različica: 		v1.2\n
+   Datum različice: 3.1.2012\n
+   Avtor: 			Tito   
+   </string>
+   
+   <string name="alert_dialog_question">exit?</string>
+   
+</resources>

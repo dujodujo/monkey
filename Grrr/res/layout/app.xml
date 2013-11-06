@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"	
+		android:src="@drawable/ul_fri" />
+	
+	<TableLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"	
+		android:stretchColumns="*" >
+		
+	    <TableRow>		    
+		  
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/app_name_label"	
+				android:textColor="@color/black"
+				android:layout_marginBottom="10dip"
+				android:layout_column="1" />
+			
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/this_app_name"	
+				android:textColor="@color/black"	
+				android:layout_marginBottom="10dip" 
+				android:layout_column="2" />		
+		
+		</TableRow>
+		
+		<TableRow>
+		    
+		  <TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:gravity="left"	
+			android:text="@string/app_version_label"	
+			android:textColor="@color/black"	
+			android:layout_marginBottom="10dip"
+			android:layout_column="1"  />		
+			
+		   <TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="16sp"
+			android:gravity="left"	
+			android:text="@string/app_version"	
+			android:textColor="@color/black"	
+			android:layout_marginBottom="10dip" 
+			android:layout_column="2" />			
+		
+		</TableRow>
+		
+		<TableRow>
+		    
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/app_date_label"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="1" />
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/app_date"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="2" />
+		</TableRow>
+		
+		<TableRow>
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/app_author_label"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="1"  />
+			<TextView
+			    android:id="@+id/tvAuthor"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="2"  />
+		</TableRow>
+		
+		<TableRow>
+		    <EditText 
+			    android:id="@+id/author"
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="1" />
+		</TableRow>
+		
+		<TableRow>
+		    <Button 
+		        android:id="@+id/save"
+		        android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/save"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="1"/>
+		    
+		    <Button
+		        android:id="@+id/back"
+		        android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="16sp"
+				android:gravity="left"	
+				android:text="@string/back"	
+				android:textColor="@color/black"		
+				android:layout_marginBottom="10dip"
+				android:layout_column="1"/>
+		</TableRow>
+	
+	</TableLayout>
+
+</LinearLayout>

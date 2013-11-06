@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Spinner Activity</string>
+    <string name="title_spinner">Select Category</string>
+</resources>

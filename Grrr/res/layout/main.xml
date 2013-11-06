@@ -1,0 +1,70 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/green"
+	android:orientation="vertical"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:layout_gravity="center"
+	android:paddingLeft="20dip"
+	android:paddingRight="20dip" >
+	
+	<TextView
+		android:text="@string/main_title"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginBottom="50dip"
+		android:textSize="24.5sp" />
+	
+	<TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+		android:stretchColumns="*" >
+	
+		<TableRow>
+			<Button
+			    android:id="@+id/menu"
+			    android:text="@string/menu" />
+			<Button
+			    android:id="@+id/show1"
+			    android:text="@string/show1" />
+		</TableRow>
+		
+		<TableRow>
+			<Button
+			    android:id="@+id/clear"
+			    android:text="@string/clear" />
+			<Button
+			    android:id="@+id/show2"
+			    android:text="@string/show2" />
+		</TableRow>
+		    
+		<TableRow>
+		    
+			<Button
+			    android:id="@+id/app"
+			    android:text="@string/app" />
+			<Button
+			    android:id="@+id/exit"
+			    android:text="@string/exit" />
+		</TableRow>
+		
+		<TableRow>
+		    
+			<Button
+			    android:id="@+id/form"
+			    android:text="form" />
+		</TableRow>
+		
+	</TableLayout>
+	
+	<ImageView 
+	    android:id="@+id/picture"
+	    android:layout_width="150dip"
+	    android:layout_height="150dip"
+	    android:layout_gravity="center_horizontal"
+	    android:src="@drawable/lotus"
+	    android:visibility="invisible" />
+	
+</LinearLayout>
