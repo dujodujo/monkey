@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toyList_title">Toys List</string>
+	<string name="toyList_priceUnit">€</string>
+	
+	<string name="toyList_toySelectedTitle">Added a \&#34;%1$s\&#34;</string>
+	<string name="toyList_toySelectedMsg">Do you want to view the shopping cart now?</string>
+	
+	
+	<string name="toyList_checkoutMessage">Do you want to check out now?</string>
+	
+	<string name="toyList_toyAdded">Toy Added</string>
+	<string name="toyList_shoppingCart">Shopping Cart</string>
+	<string name="toyList_viewShoppingCart">Shopping Cart</string>
+	<string name="toyList_viewUserData">User Data</string>
+	
+	<string name="toyList_orderCheckedOut">Order Sent</string>
+</resources>

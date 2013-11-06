@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="categoriesList_categoryTitle">Categories</string>
+    <string name="categoriesList_checkoutMessage">Do you want to proceed to toys list?</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/si.android.toy"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.google.android.maps.MapView 
+    	android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:apiKey="0AWuLQKvyE6vvgHWlKELRY2Vy-Ga7b0XASulKBg" />
+    
+    <si.android.toy.view.SlidingPanel
+	    android:id="@+id/sliding_panel"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal"
+	    app:speed="30"
+	    android:visibility="gone"
+	    android:background="#22FFFFFF"
+	    android:layout_alignParentBottom="true" >
+    
+    <Button
+        android:id="@+id/satelite_view"
+        android:layout_width="match_parent"
+		android:layout_weight="1"
+		android:layout_height="45px"
+		android:text="@string/satelite_view" />
+    
+    <Button
+        android:id="@+id/normal_view"
+		android:layout_width="match_parent"
+		android:layout_weight="1"
+		android:layout_height="45px"
+		android:text="@string/normal_view" />
+    
+	</si.android.toy.view.SlidingPanel>
+</RelativeLayout>

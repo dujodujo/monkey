@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="androidUtil_error">Error</string>
+    <string name="androidUtil_yes">Yes</string>
+    <string name="androidUtil_no">No</string>
+    <string name="androidUtil_ok">OK</string>
+    <string name="androidUtil_cancel">Cancel</string>
+    
+    <string name="androidUtil_error_offline">Offline</string>
+    <string name="androidUtil_gpsDisabledDialogTitle">GPS is disabled</string>
+    <string name="androidUtil_gpsDisabledDialogText">Enable GPS?</string>
+</resources>

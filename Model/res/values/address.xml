@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="address_location">Location</string>
+    
+    <string name="address_street">Street</string>
+    <string name="address_zipCode">ZIP Code</string>
+    <string name="address_city">City</string>
+    <string name="address_country">Country</string>
+    
+    <string name="address_buttonShowMap">Show Map</string>
+    <string name="address_buttonFromMap">Address from Map</string>
+</resources>

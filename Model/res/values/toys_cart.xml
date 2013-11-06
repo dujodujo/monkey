@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toyCart_title">Shopping Cart</string>
+
+	<string name="toyCart_shoppingCart">Shopping Cart</string>
+	<string name="toyCart_toyList">Toys List</string>
+	
+	<string name="toyCart_addToy">Add Toy</string>
+	<string name="toyCart_removeToy">Remove Toy</string>
+	<string name="toyCart_cartEmpty">The list is currently empty</string>
+
+	<string name="toyCart_ToyAdded">Toy Added</string>
+	<string name="toyCart_ToyRemoved">Toy Removed</string>
+
+	<string name="toyCart_checkout">Check Out</string>
+	<string name="toyCart_cartIsEmpty">Shopping Cart is empty</string>
+	<string name="toyCart_invalidUserInfo">Please complete your user data</string>
+</resources>

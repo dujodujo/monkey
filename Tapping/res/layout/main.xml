@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+    
+    <LinearLayout 
+        android:id="@+id/header_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+    
+    <!-- TODO Applicton name in header bar -->
+    <ImageView 
+        android:id="@+id/taps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/btn_star_big_on" />
+    
+    <!-- TODO Application style -->
+    <TextView 
+        style="@style/AppTheme"
+        android:id="@+id/count_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:text="0" />
+    
+    <!-- TODO Application style -->
+    <EditText 
+        style="@style/AppTheme"
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_bar"
+        android:layout_margin="5dp"
+        android:singleLine="true" />
+    
+    <!-- TODO src image -->
+    <ImageView 
+        android:id="@+id/plus_button" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:text="plus" 
+		android:layout_below="@id/label"
+		android:layout_margin="5dp"
+		android:layout_marginTop="100dp"
+		android:src="@android:drawable/btn_plus"
+		android:layout_centerHorizontal="true"
+		android:scaleType="centerInside" />
+    
+    <!-- TODO style -->
+    <ToggleButton
+        style="@style/AppTheme"
+        android:id="@+id/locked_button" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_margin="8dp" />
+    
+    <!-- TODO src image -->
+    <ImageView 
+        android:id="@+id/tap_counter" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@+id/minus_button"
+		android:paddingTop="20dp"
+		android:layout_centerHorizontal="true"
+		android:src="@android:drawable/btn_star" />
+    
+    <Button 
+        android:id="@+id/minus_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/btn_minus"
+        android:layout_margin="10dp"/>
+    
+</RelativeLayout>

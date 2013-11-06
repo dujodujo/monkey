@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:stretchColumns="1" android:shrinkColumns="0">
+
+	<include layout="@layout/address_form_merge" />
+	
+	<TableRow>
+		<TextView style="@style/formSubHeader" android:layout_span="2" android:text="@string/userInfo_userData" />
+	</TableRow>
+	<View android:layout_width="fill_parent" android:layout_height="4sp" />
+
+	<TableRow>
+		<TextView style="@style/formFieldLabel" android:text="@string/userInfo_name" />
+		<si.android.toy.view.ValidatingEditText
+			android:id="@+id/userInfo_name" style="@style/formField.text" />
+	</TableRow>
+	<TableRow>
+		<TextView style="@style/formFieldLabel" android:text="@string/userInfo_phone" />
+		<si.android.toy.view.ValidatingEditText
+			android:id="@+id/userInfo_phone" style="@style/formField.text" />
+	</TableRow>
+	<TableRow>
+		<TextView style="@style/formFieldLabel" android:text="@string/userInfo_email" />
+		<si.android.toy.view.ValidatingEditText
+			android:id="@+id/userInfo_email" style="@style/formField.text" />
+	</TableRow>
+
+	<View android:layout_height="2dip" />
+
+	<TableRow>
+		<TextView style="@style/formFieldLabel" android:text="" />
+		<LinearLayout android:orientation="horizontal" style="@style/formField">
+			<Button android:id="@+id/userInfo_saveButton" style="@style/formField"
+				android:text="@string/userInfo_save" />
+			<Button android:id="@+id/userInfo_resetButton" style="@style/formField"
+				android:text="@string/userInfo_reset" />
+		</LinearLayout>
+	</TableRow>
+</TableLayout>

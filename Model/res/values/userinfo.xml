@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="userInfo_userData">User Data</string>
+    <string name="userInfo_name">Name</string>
+    <string name="userInfo_phone">Phone</string>
+    <string name="userInfo_email">Email</string>
+    
+    <string name="userInfo_save">Save</string>
+    <string name="userInfo_reset">Reset</string>
+    
+    <string name="userInfo_notValid">Not valid. Contains illegal values</string>
+    <string name="userInfo_formSaved">Form Saved</string>
+    
+    <string name="userInfo_errorPersistingUserInfo">Cannot save user data.</string>
+    <string name="userInfo_errorRetrievingUserInfo">Cannot retrieve user data.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="satelite_view">Satellite View</string>
+    <string name="normal_view">Normal View</string>
+</resources>

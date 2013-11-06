@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:stretchColumns="1" android:shrinkColumns="0" >
+    
+    <View android:layout_width="fill_parent" android:layout_height="4sp" />
+    <TableRow>
+        <TextView style="@style/formSubHeader" android:layout_span="2" android:text="@string/address_location" />"
+    </TableRow>
+    
+    <View android:layout_width="fill_parent" android:layout_height="4sp" />
+    <TableRow>
+        <TextView style="@style/formFieldLabel" android:text="@string/address_street" />
+    	<si.android.toy.view.ValidatingEditText 
+    	    android:id="@+id/address_street" style="@style/formField.text" />    
+    </TableRow>
+    
+    <TableRow>
+        <TextView style="@style/formFieldLabel" android:text="@string/address_zipCode" />
+    	<si.android.toy.view.ValidatingEditText
+    	    android:id="@+id/address_zipCode" style="@style/formField.text" />    
+    </TableRow>
+    
+    <TableRow>
+        <TextView style="@style/formFieldLabel" android:text="@string/address_city" />
+    	<si.android.toy.view.ValidatingEditText
+    	    android:id="@+id/address_city" style="@style/formField.text" />    
+    </TableRow>
+
+    <!-- 
+    <TableRow>
+        <TextView style="@style/formFieldLabel" android:text="@string/address_country" />
+    	<si.android.view.CountriesSpinner
+    	    android:id="@+id/address_country" style="@style/formField" />    
+    </TableRow>
+	--> 
+    
+</merge>

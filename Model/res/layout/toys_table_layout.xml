@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:stretchColumns="1">
+	<TableRow>
+		<TextView android:id="@+id/toys_quantity" android:text="quantity"
+			android:layout_width="20sp" android:layout_height="wrap_content"
+			android:paddingLeft="5sp" android:gravity="right" />
+
+		<TextView android:id="@+id/toys_name" android:text="toy"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:textStyle="bold" android:textSize="14sp"
+			android:paddingLeft="5sp" />
+
+		<TextView android:id="@+id/toys_price" android:text="price"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:paddingLeft="5sp" android:gravity="right" />
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingRight="5sp" android:paddingLeft="25sp">
+
+			<ImageView android:src="@drawable/add"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			<ImageView android:id="@+id/toys_removeButton"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:src="@drawable/delete" android:paddingLeft="5sp" />
+		</LinearLayout>
+	</TableRow>
+	<!-- 
+	<TableRow>
+		<TextView android:id="@+id/toys_categories"
+			android:layout_width="0dip" android:layout_height="wrap_content"
+			android:text="categories" android:textStyle="italic"
+			android:paddingLeft="30sp" android:layout_span="4" />
+	</TableRow>
+	 -->
+</TableLayout>
